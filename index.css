@@ -1,0 +1,409 @@
+
+body {
+    font-family: 'Droid Serif', serif;
+    font-size: 14px;
+    color: #2f2f2f;
+    background-color: #f9f7f1;
+}
+
+ .line {
+  border: 1px solid #2f2f2f;
+  margin-left: 40px;
+  margin-right: 40px;
+
+ }
+
+header {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+  font-size: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #2f2f2f;
+}
+
+.subhead {
+text-align: center;
+text-transform: uppercase;
+border-bottom: 2px solid #2f2f2f;
+border-top: 2px solid #2f2f2f;
+padding: 12px 0 12px 0;
+}
+
+h1 {
+font-size:large;
+text-transform: capitalize;
+font-family: serif;
+color: #2f2f2f;
+font-size: 60px;
+text-align: center;
+padding-top: 5%;
+padding-bottom: 30px;
+
+}
+
+h2 {
+  font-size: small;
+  text-align: center;
+  font-style: oblique;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  color: #2f2f2f;
+  font-size: 50px;
+  text-align: left;
+  padding-left:90px;
+  display:inline-block;
+  }
+
+p {
+  text-align: left;
+}
+
+.content{
+  font-size: 0;
+  line-height: 0;
+  word-spacing: -.31em;
+  display: inline-block;
+  margin: 30px 2% 0 2%;
+}
+.collumns{
+
+}
+
+.collumn{
+  font-size: 14px;
+  line-height: 20px;
+  width: 22.5%;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all .7s;
+}
+.collumn + .collumn { 
+border-left: 1px solid #2f2f2f;
+}
+.collumn .headline{
+  text-align: center;
+  line-height: normal;
+  font-family: 'Playfair Display', serif;
+  display: block;
+  margin: 0 auto;
+
+}
+
+/*heading for national museum of aus and bludells cottage h1*/
+.collumn .headline.h1{
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 10px 0 10px 0;
+}
+
+.collumn .headline.h2{
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+}
+
+.collumn .headline.h2:before{
+  border-top: 1px solid #2f2f2f;
+  content: '';
+  width: 100px;
+  height: 7px;
+  display: block;
+  margin: 0 auto;
+}
+.collumn .headline.h2:after{
+  border-bottom: 1px solid #2f2f2f;
+  content: '';
+  width: 100px;
+  height: 13px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*headings for National film and sound archive and bludells cottage h4*/
+.collumn .headline.h3{
+  font-weight: 400;
+  font-style: italic;
+  font-size: 36px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+}
+.collumn .headline.h4{
+  font-weight: 700;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+}
+.collumn .headline.h4:before{
+  border-top: 1px solid #2f2f2f;
+  content: '';
+  width: 100px;
+  height: 7px;
+  display: block;
+  margin: 0 auto;
+}
+.collumn .headline.h4:after{
+  border-bottom: 1px solid #2f2f2f;
+  content: '';
+  width: 100px;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+h3 {
+font-weight: 800;
+font-style: italic;
+font-size: 60px;
+text-align: right;
+padding-right: 50px;
+display:block;
+}
+
+h5 {
+  font-size: 14px;
+  font-family: 'times new roman';
+}
+
+/*headings for Hotel Kurrajong*/
+.collumn .headline.h5{
+  font-weight: 400;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-style: italic;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+}
+.collumn .headline.h6{
+  font-weight: 400;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+}
+.collumn .headline.h6:before{
+  border-top: 1px solid #2f2f2f;
+  content: '';
+  width: 100px;
+  height: 7px;
+  display: block;
+  margin: 0 auto;
+}
+.collumn .headline.h6:after{
+  border-bottom: 1px solid #2f2f2f;
+  content: '';
+  width: 100px;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: left;
+  padding-left: 40px;
+
+}
+
+.collumn .citation{
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+  display: block;
+  margin: 20px 0 20px 0;
+  font-feature-settings: "liga", "dlig";
+}
+
+.collumn .citation:before{
+  border-top: 1px solid #2f2f2f;
+  content: '';
+  width: 100px;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.collumn .citation:after{
+  border-bottom: 1px solid #2f2f2f;
+  content: '';
+  width: 100px;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.collumn .figure {
+  margin: 0 0 20px;
+}
+.collumn .figcaption{
+font-style: italic;
+font-size: 12px;
+}
+
+
+/*navigation*/
+.container {
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container ul li {
+  list-style: none;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.container ul li a:hover {
+  padding: 12px;
+  color: gray;
+}
+.container ul li a {
+  margin: 8px;
+  padding: 10px;
+  color: #2f2f2f;
+  font-weight: 300;
+  text-transform:capitalize;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+.active {
+  border-bottom: 2px solid #d0d7d9;
+}
+
+/*page sections*/
+.item {}
+
+.item1 {
+  margin-top: 10%;
+}
+
+.item2 {
+  margin-top: 10%;
+}
+
+.item3 {
+margin-top: -10%;
+}
+
+.item4 {
+  margin-top: 10%;
+
+}
+
+/*arrow for up the page*/
+.scroll-top {
+  height: 50px;
+  width: 50px;
+  background-color:none;
+  position: fixed;
+  bottom: 10px;
+  right: 2px;
+  cursor:pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform: scale(0.8);
+  transition: 0.5s ease-in-out transform;
+
+}
+
+.scroll-top:hover {
+  transform: scale(1);
+
+}
+.scroll-top svg {
+  width:100%;
+  color: #2f2f2f;
+  pointer-events: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*page number at bottom right*/
+.textnumber {
+  font-size: 15px;
+  font-family: serif;
+padding-left: 96%;
+padding-top: 5%;
+}
+
+.text {
+  text-align: left;
+  font-family: serif;
+  font-size: 15px;
+  line-height: 2;
+  display: inline;
+}
+
+.paper{
+  height: 450px;
+  width: 1000px;
+  margin: 50px auto;
+  margin-bottom: 100px;;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.paper::after{
+  content: '';
+  display: block;
+  border-width: 0px 75px 75px 0px;
+  border-style: solid;
+  border-color: white transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.paper::after{
+  content: '';
+  display: block;
+  border-width: 0px 75px 75px 0px;
+  border-style: solid;
+  border-color: white #FFF;
+  box-shadow: -5px 6px 10px rgb(129, 127, 127);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.paper > h1{
+  margin: 30px 210px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  
+}
+
+.paper > p{
+  padding: 0px 30px;
+  font-size: 15px;
+  font-family: serif;
+  text-align: center;
+  color: #2f2f2f;
+}
+
+footer {
+  background-color: #f9f7f1;
+  width: auto;
+  height: 0px;
+  margin-top:10%;
+  margin-bottom: 20%;
+}
+
